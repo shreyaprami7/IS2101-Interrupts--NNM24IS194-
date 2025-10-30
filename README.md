@@ -40,3 +40,5 @@ g++ -std=c++17 -pthread InterruptSimulation.cpp -o InterruptSimulation
 | `exit`            | Stop the simulation              |
 2025-10-30 18:22:45 | Keyboard | HANDLED
 2025-10-30 18:22:48 | Printer | IGNORED (MASKED)
+## Sample Output
+<img width="651" height="361" alt="Screenshot 2025-10-25 223234" src="https://github.com/user-attachments/assets/5c26f570-fa86-42a1-aeda-39691331df98" />
