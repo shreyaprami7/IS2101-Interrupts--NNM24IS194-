@@ -31,3 +31,12 @@ Each device runs in its own thread, periodically generating interrupts for the c
 ### Compile
 ```bash
 g++ -std=c++17 -pthread InterruptSimulation.cpp -o InterruptSimulation
+./InterruptSimulation
+| Command           | Description                      |
+| ----------------- | -------------------------------- |
+| `mask <device>`   | Disable interrupts from a device |
+| `unmask <device>` | Re-enable interrupts             |
+| `status`          | Show mask status and log count   |
+| `exit`            | Stop the simulation              |
+2025-10-30 18:22:45 | Keyboard | HANDLED
+2025-10-30 18:22:48 | Printer | IGNORED (MASKED)
